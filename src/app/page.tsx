@@ -2,6 +2,9 @@ import { main } from "motion/react-client";
 import Herosection from "@/components/Herosection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import UpcomingWebinar from "@/components/UpcomingWebinar";
+import Instructors from "@/components/Instructors";
 
 
 export default function Home() {
@@ -12,6 +15,9 @@ export default function Home() {
       <Herosection/>
       <FeaturedCourses/>
       <WhyChooseUs/>
+      <Testimonials/>
+      <UpcomingWebinar/>
+      <Instructors/>
     </main>
    
   );
