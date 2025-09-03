@@ -14,27 +14,27 @@ export default function Navbar({ className }: { className?: string }) {
     >
       <Menu setActive={setActive}>
       {/*  // THIS IS FOR HOME ON NAV BAR */}
-        <Link href="/home"> 
-        <MenuItem setActive={setActive} active={active} item="Home">
+        <Link href="/#"> 
+        <MenuItem setActive={setActive} active={active} item="Home"  >
         </MenuItem>
 
         </Link>
 
       {/* // THIS IS FOR OUR COURCES ON NAV BAR  */}
         <MenuItem setActive={setActive} active={active} item="Our Courses">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">All Courses</HoveredLink>
-            <HoveredLink href="/interface-design">Basic Music Theory</HoveredLink>
-            <HoveredLink href="/seo">Advanced Composition</HoveredLink>
-            <HoveredLink href="/branding">Song Writing</HoveredLink>
-            <HoveredLink href="/branding">Music Production</HoveredLink>
-            <HoveredLink href="/branding">Guitar</HoveredLink>
+          <div className="flex flex-col space-y-4 text-sm ">
+            <HoveredLink href="/courses">All Courses</HoveredLink>
+            <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
+            <HoveredLink href="/courses">Advanced Composition</HoveredLink>
+            <HoveredLink href="/courses">Song Writing</HoveredLink>
+            <HoveredLink href="/courses">Music Production</HoveredLink>
+            <HoveredLink href="/courses">Guitar</HoveredLink>
           </div>
         </MenuItem>
                
 
 {/* // THIS IS FOR CONTACT US ON NAV BAR */}
-        <Link href="/contact"> 
+        <Link href="/contacts"> 
         <MenuItem setActive={setActive} active={active} item="Contact Us">
         </MenuItem>
 
